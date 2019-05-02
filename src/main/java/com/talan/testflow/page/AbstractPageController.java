@@ -1,8 +1,8 @@
 package com.talan.testflow.page;
 
 
-import com.talan.testflow.helper.locator.PageLocator;
-import com.talan.testflow.helper.locator.meta.PageLocatorMeta;
+import com.talan.testflow.page.locator.PageLocator;
+import com.talan.testflow.page.locator.meta.PageLocatorMeta;
 import lombok.Data;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

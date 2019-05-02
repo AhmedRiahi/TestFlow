@@ -2,7 +2,7 @@ package com.talan.testflow.plugin;
 
 
 import com.talan.testflow.helper.PropertiesManager;
-import com.talan.testflow.helper.locator.PageLocatorsParser;
+import com.talan.testflow.page.locator.PageLocatorsParser;
 import cucumber.api.event.EventHandler;
 import cucumber.api.event.EventPublisher;
 import cucumber.api.event.TestRunFinished;

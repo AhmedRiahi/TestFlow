@@ -1,8 +1,8 @@
-package com.talan.testflow.helper.locator;
+package com.talan.testflow.page.locator;
 
 
 import com.talan.testflow.helper.PropertiesManager;
-import com.talan.testflow.helper.locator.meta.PageLocatorMeta;
+import com.talan.testflow.page.locator.meta.PageLocatorMeta;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

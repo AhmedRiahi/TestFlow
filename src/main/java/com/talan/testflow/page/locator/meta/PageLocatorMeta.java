@@ -1,4 +1,4 @@
-package com.talan.testflow.helper.locator.meta;
+package com.talan.testflow.page.locator.meta;
 
 import lombok.Data;
 
