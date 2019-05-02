@@ -1,7 +1,7 @@
-package com.talan.testflow.page.locator;
+package com.talan.testflow.core.page.locator;
 
 
-import com.talan.testflow.page.locator.meta.PageLocatorMeta;
+import com.talan.testflow.core.page.locator.meta.PageLocatorMeta;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.NoSuchElementException;

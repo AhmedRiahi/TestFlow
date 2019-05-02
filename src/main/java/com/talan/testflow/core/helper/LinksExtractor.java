@@ -1,4 +1,4 @@
-package com.talan.testflow.helper;
+package com.talan.testflow.core.helper;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

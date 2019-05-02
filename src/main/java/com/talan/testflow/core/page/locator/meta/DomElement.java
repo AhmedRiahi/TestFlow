@@ -1,4 +1,4 @@
-package com.talan.testflow.page.locator.meta;
+package com.talan.testflow.core.page.locator.meta;
 
 import lombok.Data;
 import org.openqa.selenium.By;

@@ -1,4 +1,4 @@
-package com.talan.testflow.page.locator.meta;
+package com.talan.testflow.core.page.locator.meta;
 
 public enum Locators {
     XPATH,

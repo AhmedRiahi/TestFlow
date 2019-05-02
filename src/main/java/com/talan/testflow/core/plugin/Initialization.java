@@ -1,8 +1,8 @@
-package com.talan.testflow.plugin;
+package com.talan.testflow.core.plugin;
 
 
-import com.talan.testflow.helper.PropertiesManager;
-import com.talan.testflow.page.locator.PageLocatorsParser;
+import com.talan.testflow.core.helper.PropertiesManager;
+import com.talan.testflow.core.page.locator.PageLocatorsParser;
 import cucumber.api.event.EventHandler;
 import cucumber.api.event.EventPublisher;
 import cucumber.api.event.TestRunFinished;
@@ -15,7 +15,7 @@ public class Initialization implements Formatter {
         System.out.println("Init configurations\n");
         PropertiesManager.getInstance().loadProperties();
         PageLocatorsParser.getInstance().parsePageLocators();
-        System.setProperty("webdriver.chrome.driver",PropertiesManager.getInstance().getPropertyValue("webdriver.chrome.driver"));
+        System.setProperty("webdriver.chrome.driver", PropertiesManager.getInstance().getPropertyValue("webdriver.chrome.driver"));
 
     };
 
